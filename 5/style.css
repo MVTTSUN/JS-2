@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-container {
+  box-sizing: border-box;
+  width: 33%;
+  border: 1px solid black;
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 25px;
+}
